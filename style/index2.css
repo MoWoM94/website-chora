@@ -6,76 +6,46 @@
     background-color: azure;  
 }
 
-.mainTitle {
-    
+.Spacer {
     border: 1px solid #707070;
-}
-
-h3 {
-}
-
-#ovContainer {
-
-}
-
-.ovBlock {
-}
-
-.blockTitle {
-    border: 1px solid #707070
-}
-
-h3 {
-    
-}
-.ovTexte {
-    border: 1px solid #707070
-
-}
-
-.ovTexte p {
-    
-}
-
-.ovButton {
-    
-}
-
-.moreImg {
-    
-}
-
-#assetsContainer {
+    text-align: center; 
 }
 
 .assetBlock {
     border: 1px solid #707070
 }
 
-.leftBlock {
-    
+.ovBlock h3 {
+    border: 1px solid #707070;
+    text-align: center;
 }
 
-.rightBlock {
-    
+.blockTexte {
+    border: 1px solid #707070;
 }
 
-.assetTitle{
-    
+.blockTexte a {
+    text-align: ;
 }
 
-.assetTexte {
-    
+#moreImg {
+    height: 25px;
+    background-image: url("../assets/images/navigate_next_grey_192x192.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.assetTexte p {
-    
+.ovButton {
+    border: 1px solid #707070;
+    height: 25px;
 }
 
-.assetButton{
-    
+.juButton {
+    text-align: center;
+    border: 1px solid #707070;
+    font-size: 28px;
 }
 
-.assetButtonTexte{
-    
+.ghost {
+    border: 1px solid #707070;
 }
