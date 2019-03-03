@@ -1,40 +1,138 @@
+/*--- Fonts ---*/
+/*Univia-pro*/
+@import url("https://use.typekit.net/sbm8ztz.css");
+/*Ethnocentric*/
+@import url("https://use.typekit.net/cun5afp.css");
+
+/*--Main Components--*/
+/* Background */
 body {
-    background-image: url("../assets/images/mainBg.jpg");
+    background-image: url("../assets/images/arriere_plan_new2.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-a {
-    color: #986E24;
-    font-size: 2px;
-  }
-  
-  a:visited {
-    color: #707070
-  }
+.container {
+    width: 100%;
+}
 
 /*Navigation*/
-
-#navigation nav li {
-    
+#Navigation nav li {
     border: 2px solid #986E24;
     border-radius: 5px;
     text-align: center;
 }
 
-/*Sections Images*/
+/*Footer*/
+footer {
+    height: 200px;
+    /*
+    background-image: url("../assets/images/plaque.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+    background-color: #131a21;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0%;
+}
 
-.logos {
+#MbcLogo {
+    background-image: url("../assets/FanKit/03_LOGOS/MadeByTheCommunity_Black.png");
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 95%;
+}
+
+#Copyright {
+    font-size: 12px;
+    position: absolute;
+    margin-top: 9.5%;
+}
+
+/*TYPO*/
+
+/*--Fonts Applied--*/
+/*Univia-pro Book - Textes*/
+p {
+    font-family: 'univia-pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4F667B;
+}
+
+a {
+    font-family: 'univia-pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Ethnocentric Regular - Titles*/
+h3, .Block h3, .Block h2{
+    font-family: 'ethnocentric', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*--Textes positioning--*/
+/*Centered*/
+.CenteredTexte, .CenteredTexte p, .CenteredTexte h3 {
+    text-align: center;
+}
+/*Left*/
+.LeftTexte, .LeftTexte p, .LeftTexteh3 {
+    text-align: start;
+}
+
+/*Right*/
+.RightTexte, .RightTexte p, .RightTexte h3 {
+    text-align: start;
+}
+
+/*--Blocks--*/
+.Block {
+    border: 1px solid #707070
+}
+
+/*Links*/
+a, .BlockButton, .JuButton{
+    color: #986E24;   
+  }
+
+.BlockButton:hover {
+    text-decoration: none;
+    color: #986E24;
+}
+  
+a:visited {
+    color: #707070;
+  }
+
+/*Buttons*/
+#MoreImg {
+    height: 25px;
+    background-image: url("../assets/images/navigate_next_grey_192x192.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*Logos*/
+.Logos {
+    width: 94px;
     height: 94px;
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
 }
 
 #chora {
     background-image: url("../assets/images/CHORA.png");
 }
 
-#choraNoBg {
+#ChoraNoBg {
     background-image: url("../assets/images/chora-nobg.png");
 }
 
@@ -68,33 +166,4 @@ a {
 
 #smh {
     background-image: url("../assets/images/medic.png");
-}
-
-/*Footer*/
-
-footer {
-    width: 100%;
-    height: 200px;
-    background-image: url("../assets/images/plaque.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: aliceblue;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#copyright {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 12px;
-    color: #707070;
-}
-
-#mbcLogo {
-    height: 74px;
-    background-image: url("../assets/FanKit/03_LOGOS/MadeByTheCommunity_Black.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }

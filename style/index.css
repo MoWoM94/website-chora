@@ -1,191 +1,56 @@
-#topImage {
-    width: 96%;
-    height: 230px;
-    margin: 45px 30px 0px 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+/*--Main Components--*/
+#TopImage {
+    height: 242px;
     background-image: url("../assets/images/lire3.jpg");
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;
+    margin-top: 48px;
 }
 
-#choraNoBg {
-    width: 10%;
-    height: 60%;
+.TopLogo {
+    margin: 2.5% 0% 2.5% 0%;
+    height: 150px;
 }
 
-#logosContainer {
-    width: 96%;
-    height: 94px;
-    margin: 70px 50px 0px 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.sectionImageContainer {
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0px 47px 0px 0px;
-    width: 94px;
-    height: auto;
-}
-
-.mainTitle {
-    width: 96%;
-    height:84px;
-    margin: 70px 30px 70px 30px;
-    font-size: 31px;
+.Spacers {
+    padding: 18px 0px 10px 0px;
     color: #986E24;
-    border: 1px solid #707070;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
 }
 
-h3 {
-    width: auto;
-}
-
-#ovContainer {
-    width: 90%;
-    height: 70%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: space-around;
-    margin: 0px 75px 0px 75px;
-}
-
-.ovBlock {
-    width: 20%;
-    height: 100%;
-    margin: 10px 10px 10px 10px; 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-}
-
-.blockTitle {
-    width: 100%;
-    height: 64px;
+.Spacer1 {
     margin: 0px 0px 70px 0px;
-    border: 1px solid #707070;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.Spacer2 {
+    margin-top: 70px;
+}
+
+#LogosRow {
+    margin: 19px 0px 19px 0px;
+}
+
+.StoryRow{
+    margin: 70px 0px 0px 0px;
+}
+
+.StoryTitle {
+    color: #B3B5B7;
+} 
+
+.BlockTitle {
+    padding: 28px 0px 20px 0px;
+    margin-bottom: 70px;
+    color: #B3B5B7;
+}
+
+.BlockTexte {
+    padding: 5px 0px 5px 0px;
+}
+
+/*"Notre fonctionnement" - Content Blocks */
+.JuButton {
     font-size: 28px;
-    color: #707070;
-}
-
-h3 {
-    width: auto;
-}
-.ovTexte {
-    width: 100%;
-    min-height: 150px;
-    max-height: 250px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border: 1px solid #707070;
-    border-radius: 5px;
-    padding: 10px;   
-}
-
-.ovTexte p {
-    width: 100%;
-    height: 90%;
-    max-height: 90%;
-    color: #4F667B;
-}
-
-.ovButton {
-    width: 100%;
-    height: 25px;
-    margin-top: 1px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-}
-
-.moreImg {
-    display: block;
-    width: 25px;
-    height: 25px;
-    margin-top: -3px;
-    background-image: url("../assets/images/navigate_next_grey_192x192.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-#assetsContainer {
-    width: 96%;
-    margin: 0px 75px 0px 75px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.assetBlock {
-    width: 41%;
-    height: 186px;
-    border: 1px solid #707070;
-    border-radius: 2px;
-}
-
-.leftBlock {
-    margin: 0px 48% 70px 0px;
-}
-
-.rightBlock {
-    margin: 0px 0px 70px 48%;
-}
-
-.assetTitle{
-    color: #707070;
-    font-size: 28px;
-    margin: 10px 10px 10px 10px;
-}
-
-.assetTexte {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    height: 100%;
-    margin: 0px 40px 45px 40px;
-    color: #4F667B;
-}
-
-.assetTexte p {
-    width: 90%;
-    height: 90%
-}
-
-.assetButton{
-    width: 34%;
-    height: 50px;
-    margin: 65px 630px 65px 630px;
-    color: #707070;
-    font-size: 28px;
-    border: 1px solid #707070;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.assetButtonTexte{
-    padding: 3% 3% 3% 3%;
-    width: 25%;
-    display: flex;
-    justify-content: center;
+    margin: 70px 0px 70px 0px;
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
 }
